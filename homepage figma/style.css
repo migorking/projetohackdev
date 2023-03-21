@@ -1,0 +1,335 @@
+/* Estilos para o corpo da página */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Estilos para a navegação */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111B59;
+  padding: 25px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+nav a {
+  color: white;
+  text-decoration:double;
+
+}
+
+nav button {
+  background-color: #F95E1D;
+  color: #ffff;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: white;
+  color: #F95E1D;
+}
+
+/* Estilos para a seção hero */
+
+.logoShark {
+  background-color: #111B59;
+  height: 500px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.logoShark h1 {
+  font-size: 30px;
+  margin: 0;
+  color: #F95E1D;
+  display: flex;
+  justify-content: right;
+  padding-left: 5px;
+  padding-bottom: 50%;
+}
+
+/* Estilos para a seção de recursos */
+.features {
+  background-color: #D9D9D9;
+  padding: 50px 0;
+}
+
+.features h2 {
+  font-size: 36px;
+  margin: 0;
+  color: #111B59;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.features ul {
+  list-style: none;
+  margin: 50px 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.features li {
+  flex-basis: calc(33.33% - 200px);
+}
+
+.features img {
+  width: 50px;
+}
+
+.features h3 {
+  font-size: 24px;
+  margin: 20px 0 10px;
+  color: #111B59;
+}
+
+.features p {
+  font-size: 18px;
+  margin: 0;
+  color: #F95E1D;
+}
+
+/* Estilos para a seção CTA */
+.cta {
+  background-color: #111B59;
+  height: 30px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta button {
+  background-color: white;
+  color: #F95E1D;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 800px;
+  text-align: center;
+}
+
+.cta button:hover {
+  background-color: #F95E1D;
+  color: whitesmoke;
+}
+
+
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #111B59;
+  color: #111B59;
+  padding: 50px 0;
+  height: 25px;
+}
+
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  margin-right: 20px;
+}
+
+footer a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+footer p {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+
+form {
+  width: 240px;
+  height: 240px;
+  margin: 0px auto;
+  border: 1px solid #F95E1D;
+  padding: 20px;
+  background-color: whitesmoke;
+  border-radius: 13px;
+  
+  
+}
+
+.form h2 {
+  font-size: 22px;
+  text-align: center;
+}
+
+.form h3 {
+  font-size: 16px;
+  text-align: center;
+}
+
+button[type="submit"] {
+  background-color: #F95E1D;
+  color: whitesmoke;
+  padding: 15px 35px;
+  border: none;
+  border-radius: 13px;
+  cursor: pointer;
+  margin-left: 50px;
+  font-size: 16px;
+
+}
+
+button[type="submit"]:hover {
+  background-color: #111B59;
+  color: whitesmoke;
+}
+
+/* Estilos para telas maiores */
+@media (min-width: 1024px) {
+  nav {
+    padding: 25px 50px;
+  }
+
+  nav li {
+    margin-right: 60px;
+    font-size: 24px;
+  }
+
+  .hero h1 {
+    font-size: 64px;
+  }
+
+  .hero p {
+    font-size: 24px;
+  }
+
+  .features h2 {
+    font-size: 48px;
+  }
+
+  .features li {
+    flex-basis: calc(33.33% - 100px);
+  }
+
+  .features h3 {
+    font-size: 30px;
+  }
+
+  .features p {
+    font-size: 20px;
+  }
+
+  .cta h2 {
+    font-size: 48px;
+  }
+}
+
+/* Estilos para telas menores */
+@media (max-width: 1023px) {
+  nav {
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+  }
+
+  nav li {
+    margin-right: 0;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .hero {
+    height: 300px;
+  }
+
+  .hero h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .hero p {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .hero button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .features h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .features ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .features li {
+    flex-basis: auto;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .features h3 {
+    font-size: 24px;
+  }
+
+  .features p {
+    font-size: 16px;
+  }
+
+  .cta {
+    height: auto;
+    padding: 50px 25px;
+  }
+
+  .cta h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .cta button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
