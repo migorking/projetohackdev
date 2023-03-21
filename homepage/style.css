@@ -1,0 +1,199 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Estilos para a navegação */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111B59;
+    padding: 25px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav button {
+    background-color: #F95E1D;
+    color: #ffff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav button:hover {
+    background-color: white;
+    color: #F95E1D;
+}
+
+/* Estilos para a seção hero */
+.hero {
+    background-color: #f4f4f4;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #F95E1D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 0;
+    color: #111B59;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero button {
+    background-color: #F95E1D;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: auto;
+    margin-top: 20px;
+    margin-left: 430px;
+}
+
+.hero button:hover {
+    background-color: white;
+    color: #F95E1D;
+}
+
+/* Estilos para a seção de recursos */
+.features {
+    background-color: white;
+    padding: 50px 0;
+}
+
+.features h2 {
+    font-size: 36px;
+    margin: 0;
+    color: #111B59;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features ul {
+    list-style: none;
+    margin: 50px 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.features li {
+    flex-basis: calc(33.33% - 200px);
+}
+
+.features img {
+    width: 50px;
+}
+
+.features h3 {
+    font-size: 24px;
+    margin: 20px 0 10px;
+    color: #111B59;
+}
+
+.features p {
+    font-size: 18px;
+    margin: 0;
+    color: #F95E1D;
+}
+
+/* Estilos para a seção CTA */
+.cta {
+    background-color: #111B59;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta h2 {
+    font-size: 36px;
+    margin: 0;
+    color: whitesmoke;
+}
+
+.cta button {
+    background-color: white;
+    color: #F95E1D;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 55px;
+}
+
+.cta button:hover {
+    background-color: #F95E1D;
+    color: whitesmoke;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #111B59;
+    color: whitesmoke;
+    padding: 50px 0;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    margin-right: 20px;
+}
+
+footer a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 18px;
+    margin: 20px 0;
+}
